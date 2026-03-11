@@ -191,6 +191,11 @@ def main():
 
     enrich_epic_names(headers, stories)
 
+    assigned = [s["assignee"] for s in stories if s["assignee"]]
+    print(f"Stories with assignee: {len(assigned)}/{len(stories)}")
+    if assigned:
+        print(f"Sample assignees: {assigned[:5]}")
+
     output = {
         "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(stories),
