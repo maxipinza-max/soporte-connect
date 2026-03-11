@@ -22,7 +22,7 @@ PROJECT   = "CO"
 LABEL     = "Soporte"
 
 # Board lane order for the dashboard
-LANE_ORDER = ["POR HACER", "EN CURSO", "BLOQUEADO", "HECHO"]
+LANE_ORDER = ["POR HACER", "EN CURSO", "VALIDACION", "BLOQUEADO", "HECHO"]
 
 # Map Jira status category key → dashboard lane
 CATEGORY_TO_LANE = {
@@ -46,12 +46,20 @@ NAME_TO_LANE = {
     "in review":   "EN CURSO",
     "en revisión": "EN CURSO",
     "en revision": "EN CURSO",
-    "hecho":       "HECHO",
-    "done":        "HECHO",
-    "cerrado":     "HECHO",
-    "closed":      "HECHO",
-    "resuelto":    "HECHO",
-    "resolved":    "HECHO",
+    "hecho":          "HECHO",
+    "done":           "HECHO",
+    "cerrado":        "HECHO",
+    "closed":         "HECHO",
+    "resuelto":       "HECHO",
+    "resolved":       "HECHO",
+    "validacion":     "VALIDACION",
+    "validación":     "VALIDACION",
+    "en validacion":  "VALIDACION",
+    "en validación":  "VALIDACION",
+    "in review":      "VALIDACION",
+    "in validation":  "VALIDACION",
+    "qa":             "VALIDACION",
+    "testing":        "VALIDACION",
 }
 
 
@@ -99,7 +107,7 @@ def fetch_stories(headers):
                 f'AND issuetype in (Story, Task, Bug, "Historia") '
                 f"ORDER BY created DESC"
             ),
-            "fields": "summary,status,parent,customfield_10014,issuetype",
+            "fields": "summary,status,parent,customfield_10014,issuetype,assignee",
             "maxResults": page_size,
             "startAt": start_at,
         }
@@ -132,6 +140,9 @@ def fetch_stories(headers):
                     epic_key  = epic_link_key
                     epic_name = epic_link_key  # name resolved below
 
+            assignee_field = fields.get("assignee") or {}
+            assignee = assignee_field.get("displayName") or None
+
             stories.append({
                 "key":       issue["key"],
                 "summary":   fields.get("summary", ""),
@@ -139,6 +150,7 @@ def fetch_stories(headers):
                 "lane":      lane,
                 "epic_key":  epic_key,
                 "epic_name": epic_name,
+                "assignee":  assignee,
                 "url":       f"{JIRA_BASE}/browse/{issue['key']}",
             })
 
