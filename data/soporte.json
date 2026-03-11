@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T10:39:28Z",
+  "last_updated": "2026-03-11T15:17:09Z",
   "total": 43,
   "stories": [
     {
@@ -9,6 +9,7 @@
       "lane": "HECHO",
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1489"
     },
     {
@@ -18,6 +19,7 @@
       "lane": "POR HACER",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1376"
     },
     {
@@ -27,6 +29,7 @@
       "lane": "HECHO",
       "epic_key": "CO-469",
       "epic_name": "Integración a tercero",
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1358"
     },
     {
@@ -36,6 +39,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1357"
     },
     {
@@ -45,6 +49,7 @@
       "lane": "POR HACER",
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1356"
     },
     {
@@ -54,6 +59,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
+      "assignee": "Sebastián Sánchez",
       "url": "https://elevaap.atlassian.net/browse/CO-1355"
     },
     {
@@ -63,87 +69,97 @@
       "lane": "POR HACER",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1352"
     },
     {
       "key": "CO-1349",
       "summary": "Descargable: Exportar datos del Ranking General por tab",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1349"
     },
     {
       "key": "CO-1348",
       "summary": "Descargable: Exportar datos de la sección Resumen del Periodo",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1348"
     },
     {
       "key": "CO-1347",
       "summary": "Rediseño UI: Ranking General - Tab Dificultad",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1347"
     },
     {
       "key": "CO-1346",
       "summary": "Rediseño UI: Ranking General - Tab Seguridad",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1346"
     },
     {
       "key": "CO-1345",
       "summary": "Rediseño UI: Ranking General - Tab Frenos",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1345"
     },
     {
       "key": "CO-1344",
       "summary": "Rediseño UI: Ranking General - Tab Consumo",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1344"
     },
     {
       "key": "CO-1343",
       "summary": "Rediseño UI: Ranking General - Tab General",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1343"
     },
     {
       "key": "CO-1342",
       "summary": "Rediseño UI: Sección Resumen del Periodo",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1342"
     },
     {
       "key": "CO-1341",
       "summary": "Rediseño UI: Panel de búsqueda y filtros de Nota Detallada",
-      "status": "Control de calidad",
-      "lane": "EN CURSO",
+      "status": "Validacion",
+      "lane": "VALIDACION",
       "epic_key": "CO-1269",
       "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
       "url": "https://elevaap.atlassian.net/browse/CO-1341"
     },
     {
@@ -153,6 +169,7 @@
       "lane": "POR HACER",
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1339"
     },
     {
@@ -162,6 +179,7 @@
       "lane": "EN CURSO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1332"
     },
     {
@@ -171,6 +189,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1331"
     },
     {
@@ -180,6 +199,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1322"
     },
     {
@@ -189,6 +209,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1316"
     },
     {
@@ -198,6 +219,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
+      "assignee": "Nicolás García Santelices",
       "url": "https://elevaap.atlassian.net/browse/CO-1314"
     },
     {
@@ -207,6 +229,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
+      "assignee": "Nicolás García Santelices",
       "url": "https://elevaap.atlassian.net/browse/CO-1313"
     },
     {
@@ -216,6 +239,7 @@
       "lane": "HECHO",
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Francisco Donaire",
       "url": "https://elevaap.atlassian.net/browse/CO-1311"
     },
     {
@@ -225,6 +249,7 @@
       "lane": "HECHO",
       "epic_key": "CO-659",
       "epic_name": "Soporte Otras Áreas Kaufmann",
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1309"
     },
     {
@@ -234,6 +259,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1305"
     },
     {
@@ -243,6 +269,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
+      "assignee": "Sebastián Sánchez",
       "url": "https://elevaap.atlassian.net/browse/CO-1304"
     },
     {
@@ -252,6 +279,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Sebastián Sánchez",
       "url": "https://elevaap.atlassian.net/browse/CO-1302"
     },
     {
@@ -261,6 +289,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1299",
       "epic_name": "Ciberseguridad Connect",
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1301"
     },
     {
@@ -270,6 +299,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1299",
       "epic_name": "Ciberseguridad Connect",
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1300"
     },
     {
@@ -279,6 +309,7 @@
       "lane": "EN CURSO",
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1297"
     },
     {
@@ -288,6 +319,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1296"
     },
     {
@@ -297,6 +329,7 @@
       "lane": "HECHO",
       "epic_key": "CO-659",
       "epic_name": "Soporte Otras Áreas Kaufmann",
+      "assignee": "Dionisio Olivares",
       "url": "https://elevaap.atlassian.net/browse/CO-1295"
     },
     {
@@ -306,6 +339,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1286"
     },
     {
@@ -315,6 +349,7 @@
       "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
+      "assignee": "Mario Calderón",
       "url": "https://elevaap.atlassian.net/browse/CO-1285"
     },
     {
@@ -324,6 +359,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
+      "assignee": "Francisco Donaire",
       "url": "https://elevaap.atlassian.net/browse/CO-1284"
     },
     {
@@ -333,6 +369,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
+      "assignee": "Francisco Donaire",
       "url": "https://elevaap.atlassian.net/browse/CO-1282"
     },
     {
@@ -342,6 +379,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1277"
     },
     {
@@ -351,6 +389,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1273"
     },
     {
@@ -360,6 +399,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1272"
     },
     {
@@ -369,6 +409,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
+      "assignee": "Benjamín Alexander Loyola Salazar",
       "url": "https://elevaap.atlassian.net/browse/CO-1271"
     },
     {
@@ -378,6 +419,7 @@
       "lane": "HECHO",
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Francisco Donaire",
       "url": "https://elevaap.atlassian.net/browse/CO-1224"
     },
     {
@@ -387,6 +429,7 @@
       "lane": "HECHO",
       "epic_key": "CO-1276",
       "epic_name": "Copiloto: Lucia 2.0",
+      "assignee": "Sebastián Sánchez",
       "url": "https://elevaap.atlassian.net/browse/CO-1027"
     }
   ]
