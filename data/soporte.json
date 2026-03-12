@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-03-12T10:39:00Z",
-  "total": 43,
+  "last_updated": "2026-03-12T19:29:11Z",
+  "total": 44,
   "stories": [
+    {
+      "key": "CO-1508",
+      "summary": "Revisión envío reportes de telemetría – Copiloto",
+      "status": "Tareas por hacer",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "url": "https://elevaap.atlassian.net/browse/CO-1508"
+    },
     {
       "key": "CO-1489",
       "summary": "[B] Optimizar consulta de listado general de tickets en Backoffice Wicar",
