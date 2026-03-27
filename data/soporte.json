@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-03-27T14:44:10Z",
-  "total": 146,
+  "last_updated": "2026-03-27T16:59:38Z",
+  "total": 49,
   "stories": [
+    {
+      "key": "CO-1516",
+      "summary": "Navegación interna rota entre Breadcrumps - Copiloto Hub",
+      "status": "Tareas por hacer",
+      "issuetype": "Error",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
+      "url": "https://elevaap.atlassian.net/browse/CO-1516"
+    },
+    {
+      "key": "CO-1339",
+      "summary": "Cambiar logotipo Korai a Connect",
+      "status": "Tareas por hacer",
+      "issuetype": "Historia",
+      "lane": "POR HACER",
+      "epic_key": "CO-1004",
+      "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Cambiar logotipo de KORA por el de Connect",
+      "url": "https://elevaap.atlassian.net/browse/CO-1339"
+    },
+    {
+      "key": "CO-1356",
+      "summary": "Integrar Lucia.20 en Home Copiloto",
+      "status": "Tareas por hacer",
+      "issuetype": "Historia",
+      "lane": "POR HACER",
+      "epic_key": "CO-1004",
+      "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Integrar el Chat de Lucia 2.0 en el Home de Copiloto para que el cliente final pueda realizar consultas a través de esta herramienta",
+      "url": "https://elevaap.atlassian.net/browse/CO-1356"
+    },
+    {
+      "key": "CO-1376",
+      "summary": "Integrar CDN en toda la plataforma para darle integridad a la consulta de Lucia",
+      "status": "Tareas por hacer",
+      "issuetype": "Historia",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
+      "url": "https://elevaap.atlassian.net/browse/CO-1376"
+    },
     {
       "key": "CO-1552",
       "summary": "Datos DCT no match con Rastreo 2.0",
@@ -11,128 +67,10 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
       "url": "https://elevaap.atlassian.net/browse/CO-1552"
-    },
-    {
-      "key": "CO-1349",
-      "summary": "Descargable: Exportar datos del Ranking General por tab",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1349"
-    },
-    {
-      "key": "CO-1348",
-      "summary": "Descargable: Exportar datos de la sección Resumen del Periodo",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1348"
-    },
-    {
-      "key": "CO-1347",
-      "summary": "Rediseño UI: Ranking General - Tab Dificultad",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1347"
-    },
-    {
-      "key": "CO-1346",
-      "summary": "Rediseño UI: Ranking General - Tab Seguridad",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1346"
-    },
-    {
-      "key": "CO-1344",
-      "summary": "Rediseño UI: Ranking General - Tab Consumo",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1344"
-    },
-    {
-      "key": "CO-1345",
-      "summary": "Rediseño UI: Ranking General - Tab Frenos",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1345"
-    },
-    {
-      "key": "CO-1343",
-      "summary": "Rediseño UI: Ranking General - Tab General",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1343"
-    },
-    {
-      "key": "CO-1342",
-      "summary": "Rediseño UI: Sección Resumen del Periodo",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1342"
-    },
-    {
-      "key": "CO-1341",
-      "summary": "Rediseño UI: Panel de búsqueda y filtros de Nota Detallada",
-      "status": "Deprecado",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": "CO-1269",
-      "epic_name": "Copiloto: Nota de conductor",
-      "assignee": "Florencia Simionato",
-      "url": "https://elevaap.atlassian.net/browse/CO-1341"
-    },
-    {
-      "key": "CO-1297",
-      "summary": "[B] Servicio vencimiento automático de contratos Wicar",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": "CO-862",
-      "epic_name": "Wicar: Mejoras administrativas",
-      "assignee": "Dionisio Olivares",
-      "url": "https://elevaap.atlassian.net/browse/CO-1297"
-    },
-    {
-      "key": "CO-1332",
-      "summary": "Vehiculos sin reportar",
-      "status": "Finalizada",
-      "issuetype": "Historia",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1332"
     },
     {
       "key": "CO-1525",
@@ -143,6 +81,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como gerente de Negocios Digitales me gustaría agrupar las aplicaciones de Connect dentro de un ebntorno visual que le permita a los clientes poder identificar visualmente los reportes que pertenecen al area de connect y telemetría y poder navegar entre ellos.",
       "url": "https://elevaap.atlassian.net/browse/CO-1525"
     },
     {
@@ -154,7 +95,164 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como gerente de Negocios Digitales me gustaría agrupar las aplicaciones de Connect dentro de un ebntorno visual que le permita a los clientes poder identificar visualmente los reportes que pertenecen al area de connect y telemetría y poder navegar entre ellos.",
       "url": "https://elevaap.atlassian.net/browse/CO-1515"
+    },
+    {
+      "key": "CO-1349",
+      "summary": "Descargable: Exportar datos del Ranking General por tab",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero poder descargar los datos de cada tab del Ranking General (General, Consumo, Frenos, Seguridad y Dificultad), para compartir o analizar externamente el desempeño detallado de la flota por dimensión.\\\\n\\\\n**Alcance:**\\\\n- Agregar botón/ícono de descarga en cada tab del Ranking General\\\\n- La descarga debe exportar la tabla completa de la tab activa (no solo los vehículos visibles en pantalla)\\\\n- Formatos de exportación: Excel (.xlsx) y/o PDF\\\\n- El archivo debe incluir: período, grupo, filtros aplicados y todas las columnas de la tab\\\\n- Nombre sugerido: ranking\\_\\[tab\\]_\\[fecha_inicio\\]_\\[fecha_fin\\] (ej: ranking_consumo_13022026_20022026)\\\\n- Tab General: exportar Nota, Nota consumo, Nota frenos, Nota seguridad y Nota dificultad\\\\n- Tab Consumo: exportar Consumo, Conducción no rentable, Rango eficiencia de velocidad, Exceso de velocidad\\\\n- Tab Frenos: exportar Frenos, Uso de freno de servicio, Frenadas bruscas\\\\n- Tab Seguridad: exportar Seguridad, Exceso de velocidad, Aceleraciones bruscas, Frenadas bruscas, Sobre revolución de motor\\\\n- Tab Dificultad: exportar Dificultad y Variación de altitud",
+      "url": "https://elevaap.atlassian.net/browse/CO-1349"
+    },
+    {
+      "key": "CO-1348",
+      "summary": "Descargable: Exportar datos de la sección Resumen del Periodo",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero poder descargar los datos del Resumen del Periodo, para compartir o analizar externamente los KPIs de la flota (Unidades en Operación, Rendimiento, Distancia Recorrida y Tiempo en Operación).\\\\n\\\\n**Alcance:**\\\\n- Agregar botón/ícono de descarga en la sección Resumen del Periodo\\\\n- Formatos de exportación: Excel (.xlsx) y/o PDF\\\\n- El archivo descargado debe incluir: período seleccionado, grupo y vehículos filtrados, y los 4 KPIs con su comparativa vs periodo anterior\\\\n- Nombre sugerido del archivo: resumen_periodo\\_\\[fecha_inicio\\]\\_\\[fecha_fin\\]",
+      "url": "https://elevaap.atlassian.net/browse/CO-1348"
+    },
+    {
+      "key": "CO-1347",
+      "summary": "Rediseño UI: Ranking General - Tab Dificultad",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la tab Dificultad del Ranking General tenga un rediseño visual moderno, para visualizar de forma más clara el nivel de exigencia del terreno por vehículo.\\\\n\\\\n**Alcance:**\\\\n- Rediseño de la tarjeta resumen: Dificultad\\\\n- Rediseño de la tabla de ranking con columnas: Vehículo, Nombre, Dificultad y Variación de altitud\\\\n- Mejora visual de indicadores de tendencia por vehículo\\\\n- Considerar contexto de que esta métrica refleja dificultad del terreno, no desempeño del conductor",
+      "url": "https://elevaap.atlassian.net/browse/CO-1347"
+    },
+    {
+      "key": "CO-1346",
+      "summary": "Rediseño UI: Ranking General - Tab Seguridad",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la tab Seguridad del Ranking General tenga un rediseño visual moderno, para identificar de forma más clara los comportamientos de riesgo en la conducción de la flota.\\\\n\\\\n**Alcance:**\\\\n- Rediseño de las 5 tarjetas resumen: Seguridad, Exceso de velocidad, Aceleraciones bruscas, Frenadas bruscas y Sobre revolución de motor\\\\n- Rediseño de la tabla de ranking con columnas: Vehículo, Nombre, Seguridad, Exceso de velocidad, Aceleraciones bruscas, Frenadas bruscas y Sobre revolución de motor\\\\n- Mejora visual de indicadores de tendencia por vehículo",
+      "url": "https://elevaap.atlassian.net/browse/CO-1346"
+    },
+    {
+      "key": "CO-1344",
+      "summary": "Rediseño UI: Ranking General - Tab Consumo",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la tab Consumo del Ranking General tenga un rediseño visual moderno, para analizar con mayor claridad el desempeño de consumo de cada vehículo de la flota.\\\\n\\\\n**Alcance:**\\\\n- Rediseño de las 4 tarjetas resumen: Consumo, Consumo conducción no rentable, Rango eficiencia de velocidad y Exceso de velocidad\\\\n- Rediseño de la tabla de ranking con columnas: Vehículo, Nombre, Consumo, Consumo conducción no rentable, Rango eficiencia de velocidad, Exceso de velocidad\\\\n- Mejora visual de indicadores de tendencia por vehículo",
+      "url": "https://elevaap.atlassian.net/browse/CO-1344"
+    },
+    {
+      "key": "CO-1345",
+      "summary": "Rediseño UI: Ranking General - Tab Frenos",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la tab Frenos del Ranking General tenga un rediseño visual moderno, para evaluar con mayor claridad el uso de frenos de cada vehículo de la flota.\\\\n\\\\n**Alcance:**\\\\n- Rediseño de las 3 tarjetas resumen: Frenos, Uso de freno de servicio y Frenadas bruscas\\\\n- Rediseño de la tabla de ranking con columnas: Vehículo, Nombre, Frenos, Uso de freno de servicio y Frenadas bruscas\\\\n- Mejora visual de indicadores de tendencia por vehículo",
+      "url": "https://elevaap.atlassian.net/browse/CO-1345"
+    },
+    {
+      "key": "CO-1343",
+      "summary": "Rediseño UI: Ranking General - Tab General",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la tab General del Ranking General tenga un rediseño visual moderno, para visualizar de forma más clara las notas globales de la flota y el ranking por vehículo.\\\\n\\\\n**Alcance:**\\\\n- Rediseño de las 5 tarjetas de métricas resumen: General, Consumo, Frenos, Seguridad y Dificultad\\\\n- Rediseño de la tabla de ranking con columnas: Vehículo, Nombre, Nota, Nota consumo, Nota uso de frenos, Nota seguridad y Nota dificultad\\\\n- Mejora visual de indicadores de tendencia por vehículo\\\\n- Rediseño del sistema de tabs (General, Consumo, Frenos, Seguridad, Dificultad)",
+      "url": "https://elevaap.atlassian.net/browse/CO-1343"
+    },
+    {
+      "key": "CO-1342",
+      "summary": "Rediseño UI: Sección Resumen del Periodo",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que la sección Resumen del Periodo tenga un rediseño visual moderno, para visualizar de forma más clara y atractiva los KPIs principales de la flota.\n\n**Alcance:**Rediseño de las 4 tarjetas de KPI: \n\nUnidades en Operación, \n\nRendimiento, \n\nDistancia Recorrida y \n\nTiempo en Operación\n\nMejora en la visualización de tendencias vs periodo anterior (flechas arriba/abajo)\\\\n- \n\nDiseño responsivo de las tarjetas",
+      "url": "https://elevaap.atlassian.net/browse/CO-1342"
+    },
+    {
+      "key": "CO-1341",
+      "summary": "Rediseño UI: Panel de búsqueda y filtros de Nota Detallada",
+      "status": "Deprecado",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": "CO-1269",
+      "epic_name": "Copiloto: Nota de conductor",
+      "assignee": "Florencia Simionato",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Como usuario de CoPiloto, quiero que el panel lateral de búsqueda y filtros de la página Nota Detallada tenga un rediseño visual moderno, para mejorar la experiencia al seleccionar grupos, vehículos, conductores y rango de fechas.\\\\n\\\\n**Alcance:**\\\\n- Rediseño del selector Vehículo / Conductor\\\\n- Rediseño del dropdown de Grupos\\\\n- Rediseño del dropdown de Vehículos\\\\n- Rediseño del selector de rango de fechas\\\\n- Rediseño del botón Buscar\\\\n- Rediseño de los chips de navegación rápida (Analytics, Telemetría Diesel, Registro Diario, Nota General, Registro de Viajes, Alertas y Eventos, Control de Conductores)",
+      "url": "https://elevaap.atlassian.net/browse/CO-1341"
+    },
+    {
+      "key": "CO-1297",
+      "summary": "[B] Servicio vencimiento automático de contratos Wicar",
+      "status": "Tareas por hacer",
+      "issuetype": "Historia",
+      "lane": "POR HACER",
+      "epic_key": "CO-862",
+      "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Crear servicio para poder dar de bajar todos los datos asociados al contrato del vehículo automáticamente en base a la fecha de expiración.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1297"
+    },
+    {
+      "key": "CO-1332",
+      "summary": "Vehiculos sin reportar",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": null,
+      "url": "https://elevaap.atlassian.net/browse/CO-1332"
     },
     {
       "key": "CO-1508",
@@ -165,6 +263,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Te escribo porque surgió un caso relacionado con los reportes de telemetría que reciben los Ejecutivos y KAMs de la red.\n\nEl día de hoy, **Jorge Jelves KAM de Pajaritos**, nos informo que no está recibiendo estos informes, y al revisar el caso detectamos que la misma situación podría estar afectando también a otros KAMs y ejecutivos de **Santiago Norte.**\n\nTe comparto a continuación el listado de correos para que puedan verificar la configuración de envío de reportes, tanto para ellos como para la cartera de clientes que cuentan con Copiloto:\n\n* [jjelves@kaufmann.cl](mailto:jjelves@kaufmann.cl)\n* [ajimenez@kaufmann.cl](mailto:ajimenez@kaufmann.cl)\n* [bastian.diaz.rodriguez@kaufmann.cl](mailto:bastian.diaz.rodriguez@kaufmann.cl)\n* [elgonzalez@kaufmann.cl](mailto:elgonzalez@kaufmann.cl)\n* [gonzalo.carreno@kaufmann.cl](mailto:gonzalo.carreno@kaufmann.cl)\n* [jaime.degavardo@kaufmann.cl](mailto:jaime.degavardo@kaufmann.cl)\n* [jsilvat@kaufmann.cl](mailto:jsilvat@kaufmann.cl)\n* [mnavarroa@kaufmann.cl](mailto:mnavarroa@kaufmann.cl)\n* [rodrigo.rojas@kaufmann.cl](mailto:rodrigo.rojas@kaufmann.cl)\n* [silvia.contreras@kaufmann.cl](mailto:silvia.contreras@kaufmann.cl)",
       "url": "https://elevaap.atlassian.net/browse/CO-1508"
     },
     {
@@ -176,6 +277,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Dionisio Olivares",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Usuarios reportan que no pueden acceder a telemetría Diesel  \nUsuarios tienen todos los permisos",
       "url": "https://elevaap.atlassian.net/browse/CO-1514"
     },
     {
@@ -187,6 +291,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "High",
+      "story_points": null,
+      "description": "Ordenar el menu de Copiloto con el siguiente Orden",
       "url": "https://elevaap.atlassian.net/browse/CO-1352"
     },
     {
@@ -198,6 +305,9 @@
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1489"
     },
     {
@@ -209,6 +319,9 @@
       "epic_key": "CO-469",
       "epic_name": "Integración a tercero",
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1358"
     },
     {
@@ -220,29 +333,10 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Dejar la vista de satelite por defecto en el modulo de rastreo 2.0\n\n‌\n\n![](blob:https://media.staging.atl-paas.net/?type=file&localId=23921cc09a12&id=16aed37f-4d5c-4dd7-8942-5bdba30f2070&&collection=&height=1118&occurrenceKey=null&width=1988&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)",
       "url": "https://elevaap.atlassian.net/browse/CO-1357"
-    },
-    {
-      "key": "CO-1376",
-      "summary": "Integrar CDN en toda la plataforma para darle integridad a la consulta de Lucia",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1376"
-    },
-    {
-      "key": "CO-1356",
-      "summary": "Integrar Lucia.20 en Home Copiloto",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": "CO-1004",
-      "epic_name": "IA Factory",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1356"
     },
     {
       "key": "CO-1355",
@@ -253,6 +347,9 @@
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
       "assignee": "Sebastián Sánchez",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1355"
     },
     {
@@ -264,18 +361,10 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1331"
-    },
-    {
-      "key": "CO-1339",
-      "summary": "Cambiar logotipo Korai a Connect",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": "CO-1004",
-      "epic_name": "IA Factory",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1339"
     },
     {
       "key": "CO-1314",
@@ -286,6 +375,9 @@
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
       "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1314"
     },
     {
@@ -297,6 +389,9 @@
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
       "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1284"
     },
     {
@@ -308,6 +403,9 @@
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
       "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1282"
     },
     {
@@ -319,6 +417,9 @@
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Como cliente de Copiloto, me gustaría poder revisar el estado de conectividad directamente en el home de la herramienta para poder tener una mejor administración de mi flota y poder saber cuales unidades están conectadas y cuales no.",
       "url": "https://elevaap.atlassian.net/browse/CO-1272"
     },
     {
@@ -330,6 +431,9 @@
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
       "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Revisión y refator de WicarMobileServices",
       "url": "https://elevaap.atlassian.net/browse/CO-1311"
     },
     {
@@ -341,6 +445,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1305"
     },
     {
@@ -352,6 +459,9 @@
       "epic_key": "CO-862",
       "epic_name": "Wicar: Mejoras administrativas",
       "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Revisión y refator de WicarMobileServices",
       "url": "https://elevaap.atlassian.net/browse/CO-1224"
     },
     {
@@ -363,6 +473,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1316"
     },
     {
@@ -374,6 +487,9 @@
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "High",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1273"
     },
     {
@@ -385,6 +501,9 @@
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Low",
+      "story_points": null,
+      "description": "Como Product Success manager me gustaría que los clientes pudiesen ver el reliveve en el mapa para tener mas contexto geográfico de la operación de sus camiones.",
       "url": "https://elevaap.atlassian.net/browse/CO-1277"
     },
     {
@@ -396,6 +515,9 @@
       "epic_key": "CO-1004",
       "epic_name": "IA Factory",
       "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Utilización de Redis para poder implementar historial de conversaciones y no perder el conexto.",
       "url": "https://elevaap.atlassian.net/browse/CO-1313"
     },
     {
@@ -407,6 +529,9 @@
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "‌\n\n[https://grupokaufmann-my.sharepoint.com/:x:/p/maximiliano_ipinza/IQCrQnCkXK0RT7qiWqfbpVbvAW-PqGXbiIsux0ANjAaQpRY?e=0I4Q9a](https://grupokaufmann-my.sharepoint.com/:x:/p/maximiliano_ipinza/IQCrQnCkXK0RT7qiWqfbpVbvAW-PqGXbiIsux0ANjAaQpRY?e=0I4Q9a)",
       "url": "https://elevaap.atlassian.net/browse/CO-1286"
     },
     {
@@ -418,6 +543,9 @@
       "epic_key": "CO-659",
       "epic_name": "Soporte Otras Áreas Kaufmann",
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Holi,\n\n‌\n\nMe pueden ayudar con la creacion de la integracion que adjunto.\n\nUtilicen el siguiente enlace:[https://ws.migtra.com/rawtest/sgscm](https://ws.migtra.com/rawtest/spl)\n\nAdemás, te adjunto las Credenciales:\n\n**Usuario**:  kauffman\n\n**Clave**:   J1R6RRmPnyDez5U6  \n  \nBesos grande grande",
       "url": "https://elevaap.atlassian.net/browse/CO-1309"
     },
     {
@@ -429,6 +557,9 @@
       "epic_key": "CO-1276",
       "epic_name": "Copiloto: Lucia 2.0",
       "assignee": "Sebastián Sánchez",
+      "priority": "High",
+      "story_points": null,
+      "description": "Explorar y definir la mejor forma de crear un **módulo reutilizable** que permita integrar el **chatbot Lucia** fácilmente en cualquier aplicación (React, Next.js, Angular, Expo, etc.) mediante una simple integración tipo **etiqueta <script>** o paquete NPM.\n\n‌\n\nEl objetivo es que cualquier aplicación externa pueda incorporar a **Lucia** sin modificar su estructura, utilizando un **token de autenticación** único por cliente.\n\n‌\n\n**Objetivo del spike:**\n\n‌\n\n* Evaluar **diferentes enfoques de distribución**:\n\n    \n\n\n\n    1. **Script embebible** (como <script src=\"...\">) que inicializa el chatbot automáticamente.\n    2. **Paquete NPM** instalable con un hook o componente React (<LuciaChatbot />).\n    3. Alternativas de **deploy** y **versionado** (CDN, npm registry, Vercel edge, etc.).\n    \n\n    \n\n\n* Definir estructura mínima para el SDK:\n\n    \n\n\n\n    * Inicialización (Lucia.init({ token }))\n    * Render del widget o bubble del chatbot\n    * Comunicación segura con backend (autenticación por token)\n    \n\n    \n\n\n* Validar compatibilidad en frameworks web y mobile (React, Next.js, Angular, Expo).\n* Documentar pros y contras de cada enfoque.",
       "url": "https://elevaap.atlassian.net/browse/CO-1027"
     },
     {
@@ -440,6 +571,9 @@
       "epic_key": "CO-1270",
       "epic_name": "Copiloto: Mejoras Home 2.0",
       "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Como connect me gustaría que cuando un cliente entre a Copiloto vea de inmediato el modulo de rastreo 2.0 como el nuevo home.",
       "url": "https://elevaap.atlassian.net/browse/CO-1271"
     },
     {
@@ -451,6 +585,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1296"
     },
     {
@@ -462,6 +599,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1322"
     },
     {
@@ -473,6 +613,9 @@
       "epic_key": "CO-1258",
       "epic_name": "Wicar: Mejoras Usuario",
       "assignee": "Sebastián Sánchez",
+      "priority": "Highest",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1304"
     },
     {
@@ -484,6 +627,9 @@
       "epic_key": "CO-659",
       "epic_name": "Soporte Otras Áreas Kaufmann",
       "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Holi.\n\n‌\n\nMe pueden ayudar con la integración de Tranciti.\n\n‌\n\nAdjunto la documentación\n\n‌\n\nBeso grande grande",
       "url": "https://elevaap.atlassian.net/browse/CO-1295"
     },
     {
@@ -495,6 +641,9 @@
       "epic_key": "CO-1299",
       "epic_name": "Ciberseguridad Connect",
       "assignee": "Mario Calderón",
+      "priority": "Highest",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1301"
     },
     {
@@ -506,6 +655,9 @@
       "epic_key": "CO-1299",
       "epic_name": "Ciberseguridad Connect",
       "assignee": "Mario Calderón",
+      "priority": "Highest",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1300"
     },
     {
@@ -517,6 +669,9 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Sebastián Sánchez",
+      "priority": "Highest",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1302"
     },
     {
@@ -528,1085 +683,10 @@
       "epic_key": null,
       "epic_name": null,
       "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1285"
-    },
-    {
-      "key": "CO-1361",
-      "summary": "[BACKEND] Crear entidad y tabla de agendamientos para Test Drive",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1361"
-    },
-    {
-      "key": "CO-1540",
-      "summary": "fix: Eliminar punto del mapa cuando falla la creación de geocerca",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1540"
-    },
-    {
-      "key": "CO-1546",
-      "summary": "ENVIO MAIL CADA 2 SEMANAS A CLIENTES RESUMEN FLOTA COPILOTO TELEMETRÍA",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1546"
-    },
-    {
-      "key": "CO-1147",
-      "summary": "Problemas al descargar certificado de instalación de la unidad VLZR-29",
-      "status": "En curso",
-      "issuetype": "Tarea",
-      "lane": "EN CURSO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1147"
-    },
-    {
-      "key": "CO-863",
-      "summary": "Eliminación de vehículos en base de datos.",
-      "status": "En curso",
-      "issuetype": "Tarea",
-      "lane": "EN CURSO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nabor Zhender",
-      "url": "https://elevaap.atlassian.net/browse/CO-863"
-    },
-    {
-      "key": "CO-1523",
-      "summary": "El BackOffice no permite cerrar los tickets,  ",
-      "status": "Control de calidad",
-      "issuetype": "Error",
-      "lane": "VALIDACION",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1523"
-    },
-    {
-      "key": "CO-1374",
-      "summary": "[BACKEND] Crear nuevo origen TEST-DRIVE en lógica de Copiloto",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1374"
-    },
-    {
-      "key": "CO-1519",
-      "summary": "Update user features (apps)",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1519"
-    },
-    {
-      "key": "CO-1518",
-      "summary": "Descargable de telemetria",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1518"
-    },
-    {
-      "key": "CO-1516",
-      "summary": "Navegación interna rota entre Breadcrumps - Copiloto Hub",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1516"
-    },
-    {
-      "key": "CO-1436",
-      "summary": "[Mi Portal] Tabla de tarifas del contrato con precios decimales y filtros de período",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1436"
-    },
-    {
-      "key": "CO-1435",
-      "summary": "[Mi Portal] Tabla de vehículos del contrato con paginación configurable y búsqueda por patente",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1435"
-    },
-    {
-      "key": "CO-1434",
-      "summary": "[Mi Portal] Mapa estático en la tarjeta de Sucursal - Mis contratos",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1434"
-    },
-    {
-      "key": "CO-1471",
-      "summary": "[Test Drive] Implementar utilidad de validación de RUT chileno con autoformato",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1471"
-    },
-    {
-      "key": "CO-1473",
-      "summary": "Construir sistema de AlertToast con las 4 variantes, apilamiento y auto-cierre",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1473"
-    },
-    {
-      "key": "CO-1472",
-      "summary": "Construir componente TarjetaTelemetria con actualización de datos en tiempo real",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1472"
-    },
-    {
-      "key": "CO-1470",
-      "summary": "Construir componente CalendarPicker con los 4 modos de visualización",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1470"
-    },
-    {
-      "key": "CO-1469",
-      "summary": "Construir componente FilterBar (Estado del vehículo + Sucursal + Búsqueda)",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1469"
-    },
-    {
-      "key": "CO-1468",
-      "summary": "Integrar SDK de mapa y renderizar pines de vehículos con colores de estado y clustering",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1468"
-    },
-    {
-      "key": "CO-1467",
-      "summary": "Implementar componente SideDrawer con bloque de estadísticas y variante de perfil de usuario",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1467"
-    },
-    {
-      "key": "CO-1466",
-      "summary": "Implementar componente TopBar con marca Kaufmann y estado de navegación activo",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1466"
-    },
-    {
-      "key": "CO-1483",
-      "summary": "BUG: Avatar de barra de búsqueda muestra inicial 'A' fija en lugar de datos dinámicos del usuario autenticado",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1483"
-    },
-    {
-      "key": "CO-1482",
-      "summary": "BUG: CTA 'Iniciar test-drive' presente en variante ABMT23 de TarjetaTelemetria pero ausente en variante GLA 200 AMG",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1482"
-    },
-    {
-      "key": "CO-1481",
-      "summary": "BUG: Inconsistencia en etiqueta de navegación — 'Calendario' en escritorio vs 'Agenda de demos' en mobile/menú lateral",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1481"
-    },
-    {
-      "key": "CO-1448",
-      "summary": "[B] Problema al asignar empresas a un usuario desde G&U",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Dionisio Olivares",
-      "url": "https://elevaap.atlassian.net/browse/CO-1448"
-    },
-    {
-      "key": "CO-1433",
-      "summary": "[Mi Portal] Implementar endpoint GET /api/contratos/{id} con todas las secciones del detalle",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1433"
-    },
-    {
-      "key": "CO-1431",
-      "summary": "[Mi Portal] Implementar componente ContractTable con chips de Vigencia y paginación",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1431"
-    },
-    {
-      "key": "CO-1430",
-      "summary": "[Mi Portal] Implementar endpoint GET /api/contratos con filtros y paginación",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1430"
-    },
-    {
-      "key": "CO-1143",
-      "summary": "Diferencias en sección \"Tipos de documentos por pagar\"",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1143"
-    },
-    {
-      "key": "CO-1142",
-      "summary": "Para ítem Créditos Veh/Equipos color de filas no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1142"
-    },
-    {
-      "key": "CO-1141",
-      "summary": "Para ítem Créditos Veh/Equipos el título, botón volver y select moneda deben estar dentro del bloque azul",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1141"
-    },
-    {
-      "key": "CO-1140",
-      "summary": "Para ítem Créditos Veh/Equipos los títulos no estan a la izquierda",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1140"
-    },
-    {
-      "key": "CO-1139",
-      "summary": "Para ítem Créditos Veh/Equipos data no alineada",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1139"
-    },
-    {
-      "key": "CO-1138",
-      "summary": "Para ítem Créditos Veh/Equipos tablas en general no tienen el formato esperado",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1138"
-    },
-    {
-      "key": "CO-1137",
-      "summary": "Para ítem Créditos Veh/Equipos data en columna N de operación y montos en una sola fila",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1137"
-    },
-    {
-      "key": "CO-1136",
-      "summary": "Diferencias diseño en tablet sección Selecciona Cuenta",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1136"
-    },
-    {
-      "key": "CO-1135",
-      "summary": "Alineación respecto al header no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1135"
-    },
-    {
-      "key": "CO-1134",
-      "summary": "Tamaño de Select de moneda de consolidación no corresponde al diseño en versión tablet",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1134"
-    },
-    {
-      "key": "CO-1133",
-      "summary": "Diseño cards \"Línea de crédito\" y \"Total doc. por pagar\" en tablet no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1133"
-    },
-    {
-      "key": "CO-1132",
-      "summary": "Columna acciones no permanece fija en tablet y móvil",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1132"
-    },
-    {
-      "key": "CO-1131",
-      "summary": "Botón \"Descargar reporte\" debe estar fuera del scroll en tablet",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1131"
-    },
-    {
-      "key": "CO-1130",
-      "summary": "Se recomienda no tener paginación en Mis documentos, se espera un aproximado de 6 filas",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1130"
-    },
-    {
-      "key": "CO-1129",
-      "summary": "Diseño de graficos no corresponde en vista tablet",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1129"
-    },
-    {
-      "key": "CO-1128",
-      "summary": "Diseño de footer en tablet no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1128"
-    },
-    {
-      "key": "CO-1127",
-      "summary": "Indicadores no deben ir en móvil",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1127"
-    },
-    {
-      "key": "CO-1126",
-      "summary": "Select consultar deuda clientes no está centrado",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1126"
-    },
-    {
-      "key": "CO-1125",
-      "summary": "Sección selector cliente no corresponde al diseño en móvil",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1125"
-    },
-    {
-      "key": "CO-1124",
-      "summary": "Color azul en Linea de credito no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1124"
-    },
-    {
-      "key": "CO-1123",
-      "summary": "Header en pantallas pequeñas no corresponde",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1123"
-    },
-    {
-      "key": "CO-1375",
-      "summary": "[BACKEND] Crear geocerca por sucursal y evaluación de posicionamiento de vehículos (utilizar funciones en libreria)",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1375"
-    },
-    {
-      "key": "CO-1373",
-      "summary": "[BACKEND] Crear servicio y flujo de notificaciones por WhatsApp para Test Drive",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1373"
-    },
-    {
-      "key": "CO-1372",
-      "summary": "[BACKEND] Implementar flujo de notificaciones por correo para Test Drive (Mailgun + Template)",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1372"
-    },
-    {
-      "key": "CO-1371",
-      "summary": "[BACKEND] Almacenar preferencias de notificación del cliente al finalizar una reserva",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1371"
-    },
-    {
-      "key": "CO-1370",
-      "summary": "[BACKEND] Endpoint para descarga de carta de responsabilidad de Test Drive",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1370"
-    },
-    {
-      "key": "CO-1369",
-      "summary": "[BACKEND] Envío de email de aprobación de solicitud de Test Drive",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1369"
-    },
-    {
-      "key": "CO-1368",
-      "summary": "[BACKEND] Implementar endpoints para obtención de rutas recorridas por vehículo con métricas de recorrido",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1368"
-    },
-    {
-      "key": "CO-1367",
-      "summary": "[BACKEND] Implementar endpoint de KPIs para rutas realizadas en Test Drive",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1367"
-    },
-    {
-      "key": "CO-1366",
-      "summary": "[BACKEND] Implementar lógica para aceptar o rechazar reservas de agendamiento",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1366"
-    },
-    {
-      "key": "CO-1365",
-      "summary": "[BACKEND] Evaluar e implementar gestión de clientes para autocompletado en agendamientos",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1365"
-    },
-    {
-      "key": "CO-1364",
-      "summary": "[BACKEND] Implementar gestión de vehículos disponibles para Test Drive con obtención de última posición desde Redis",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1364"
-    },
-    {
-      "key": "CO-1362",
-      "summary": "[BACKEND] Implementar endpoints CRUD de agendamientos con validación de disponibilidad y filtros estándar",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1362"
-    },
-    {
-      "key": "CO-1360",
-      "summary": "[BACKEND] Implementar CRUD de Regiones y Sucursales con gestión de asociación entre entidades",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1360"
-    },
-    {
-      "key": "CO-1359",
-      "summary": "[BACKEND] Implementar CRUD de estados de agendamiento de vehículos",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": "CO-1319",
-      "epic_name": "Test Drive",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1359"
-    },
-    {
-      "key": "CO-1093",
-      "summary": "[WICAR] Update SDK Android - Mayo 2026",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-93",
-      "epic_name": "Wicar Mobile App",
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1093"
-    },
-    {
-      "key": "CO-1062",
-      "summary": "[WICAR] Estandarizar rutas relativas a absolutas",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": "CO-756",
-      "epic_name": "Wicar: OFF DCT",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1062"
-    },
-    {
-      "key": "CO-1063",
-      "summary": "[WICAR] Estandarizar \"Types\" en el repo",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": "CO-756",
-      "epic_name": "Wicar: OFF DCT",
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1063"
-    },
-    {
-      "key": "CO-1194",
-      "summary": "[Mi Portal] Nota de crédito sin estado",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1194"
-    },
-    {
-      "key": "CO-1323",
-      "summary": "Modificación flujo Datastream para DWH",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1323"
-    },
-    {
-      "key": "CO-1255",
-      "summary": "Investigar uso IA <> Historial sesiones",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-1004",
-      "epic_name": "IA Factory",
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1255"
-    },
-    {
-      "key": "CO-1290",
-      "summary": "Agregar headerSection en Mis pagos y abonos",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1290"
-    },
-    {
-      "key": "CO-1289",
-      "summary": "Desde el home quitar el redirigir a deuda consolidada",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1289"
-    },
-    {
-      "key": "CO-1288",
-      "summary": "Cambiar de coma a punto en Mis pagos y abonos - Widget linea de crédito",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1288"
-    },
-    {
-      "key": "CO-1287",
-      "summary": "Fix toast notification - Mi Portal",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-1157",
-      "epic_name": "Mi Portal: Sprint 22 / 23 - Mis Vehículos",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1287"
-    },
-    {
-      "key": "CO-1268",
-      "summary": "Nota de conducción 2.0",
-      "status": "Tareas por hacer",
-      "issuetype": "Tarea",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Francisco Donaire",
-      "url": "https://elevaap.atlassian.net/browse/CO-1268"
-    },
-    {
-      "key": "CO-1221",
-      "summary": "Implementación Triforce para billing",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1221"
-    },
-    {
-      "key": "CO-1195",
-      "summary": "[Mi Portal] Error al procesar pago",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1195"
-    },
-    {
-      "key": "CO-1222",
-      "summary": "Issues Mi Portal",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1222"
-    },
-    {
-      "key": "CO-1220",
-      "summary": "Deuda ténica 2025",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1220"
-    },
-    {
-      "key": "CO-1233",
-      "summary": "Unidades Integración geotab",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1233"
-    },
-    {
-      "key": "CO-1175",
-      "summary": "Eliminar flota RBU",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Francisco Donaire",
-      "url": "https://elevaap.atlassian.net/browse/CO-1175"
-    },
-    {
-      "key": "CO-1145",
-      "summary": "Migración mongodb prod to dev",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-1006",
-      "epic_name": "Connect",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1145"
-    },
-    {
-      "key": "CO-1121",
-      "summary": "Generar estructura de datos agrupados para fault code",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-1086",
-      "epic_name": "Copiloto: Códigos de Falla",
-      "assignee": "Mario Calderón",
-      "url": "https://elevaap.atlassian.net/browse/CO-1121"
-    },
-    {
-      "key": "CO-1201",
-      "summary": "Al editar una geocerca, no se actualiza en el sidebar la geocerca (index DB)",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-1110",
-      "epic_name": "Copiloto: Mejoras geocercas 2.0",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1201"
-    },
-    {
-      "key": "CO-1174",
-      "summary": "Agregar hook para esconder sidebar cuando se agrega una geocerca",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1174"
-    },
-    {
-      "key": "CO-1152",
-      "summary": "Cuando creo un polygon/circular en geocerca -  no se queda guardada la creación en el mapa",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1152"
-    },
-    {
-      "key": "CO-1173",
-      "summary": "Error al eliminar geocerca - tooltip",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1173"
-    },
-    {
-      "key": "CO-1151",
-      "summary": "Corregir marker en la creación de geocerca circular y poligonal",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1151"
-    },
-    {
-      "key": "CO-1191",
-      "summary": "Hotfix: [Mi Portal] Revisión cliente",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1191"
-    },
-    {
-      "key": "CO-1197",
-      "summary": "[Mi Portal] Error al agendar desde mi Home",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1197"
-    },
-    {
-      "key": "CO-1190",
-      "summary": "Hotfix: [Mi Portal] Facturas pendientes / Documentos Por vencer no se muestra correctamente en el widget",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1190"
-    },
-    {
-      "key": "CO-1196",
-      "summary": "[Mi Portal] Monto Linea de crédito",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1196"
-    },
-    {
-      "key": "CO-1113",
-      "summary": "Arreglar delay en el posicionamiento automático en terreno.copiloto.cloud",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1113"
-    },
-    {
-      "key": "CO-1198",
-      "summary": "Hotfix [WICAR]: error en el redireccionamiento al renovar subscripción",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1198"
-    },
-    {
-      "key": "CO-1095",
-      "summary": "Editar Geocercas desde Geofence V2",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1095"
-    },
-    {
-      "key": "CO-1096",
-      "summary": "[F] Cambiar descargable Telemetría Diesel (Vista detallada)",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-350",
-      "epic_name": "Deuda Técnica 2025",
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1096"
-    },
-    {
-      "key": "CO-1106",
-      "summary": "Onboarding automatico",
-      "status": "Finalizada",
-      "issuetype": "Error",
-      "lane": "HECHO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "url": "https://elevaap.atlassian.net/browse/CO-1106"
-    },
-    {
-      "key": "CO-1098",
-      "summary": "Agregar Panel para administrar la creación de Geocercas por los vendedores",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "CO-681",
-      "epic_name": "Geocercas CRM",
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "url": "https://elevaap.atlassian.net/browse/CO-1098"
-    },
-    {
-      "key": "CO-1150",
-      "summary": "Vehículo dado de baja desde GEOTAB",
-      "status": "Finalizada",
-      "issuetype": "Tarea",
-      "lane": "HECHO",
-      "epic_key": "ELV-1921",
-      "epic_name": "Soporte: Incrementales",
-      "assignee": "Sebastián Sánchez",
-      "url": "https://elevaap.atlassian.net/browse/CO-1150"
     }
   ]
 }
