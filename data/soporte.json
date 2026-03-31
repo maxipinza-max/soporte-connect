@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-03-31T16:35:45Z",
-  "total": 49,
+  "last_updated": "2026-03-31T17:28:16Z",
+  "total": 52,
   "stories": [
+    {
+      "key": "CO-1554",
+      "summary": "Mejoras rastreo,redis y alertas wicar",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Revisar y actualizar gps-update-service, gps-realtime-websocket y wicar-alert-sevice para alinearlos con el comportamiento de DCT",
+      "url": "https://elevaap.atlassian.net/browse/CO-1554"
+    },
+    {
+      "key": "CO-1530",
+      "summary": "Redis update últimas tramas registrada",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "‌\n\n1. **Diagnóstico del problema de fechas**\n\n    * Identificar la causa que provoca que se almacenen fechas con formato por defecto en los headers de GPS y Kamaleon dentro de las estructuras en Redis.\n    * El problema podría estar en:\n    \n        * La función UpdateFrom de VehicleRecord en copiloto-libraries-go\n        * El servicio copiloto-can-gps-update-service\n        \n    * Dado que la lógica de actualización del valor se encuentra en la librería, es más probable que el origen del problema esté ahí.\n    \n\n    \n\n\n2. **Extensión de VehicleRecord**\n\n    * Crear nuevos campos en VehicleRecord (en redis_entities):\n    \n        * GpsRawDataHistory\n        * KamaleonRawDataHistory\n        \n    * Ambos campos deben ser arreglos de tamaño fijo (definido por una constante) de tipo string.\n    * Deben almacenar los últimos _N_ registros de _raw data_ correspondientes a cada fuente.\n    \n\n    \n\n\n3. **Lógica de almacenamiento (FIFO)**\n\n    * Implementar una función encargada de:\n    \n        * Insertar nuevos registros de _raw data_.\n        * Mantener el tamaño fijo del arreglo.\n        * **Eliminar el registro más antiguo del arreglo y agregar el nuevo registro en la posición correspondiente al más reciente, manteniendo el orden.**\n        \n    * El orden debe ser: del más nuevo al más antiguo.\n    * Se sugiere aplicar lógica tipo FIFO (_First In, First Out_).\n    \n\n    \n\n\n4. **Integración en update service**\n\n    * Modificar el update service para que envíe el _raw data_ a la nueva función encargada de gestionar el historial.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1530"
+    },
+    {
+      "key": "CO-1523",
+      "summary": "El BackOffice no permite cerrar los tickets,  ",
+      "status": "Finalizada",
+      "issuetype": "Error",
+      "lane": "HECHO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Al momento de cerrar los tickets el BackOffice arroja error, lo que no permite cerrar nuevas instalaciones, ni renovaciones de contrato.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1523"
+    },
+    {
+      "key": "CO-1552",
+      "summary": "Datos DCT no match con Rastreo 2.0",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1552"
+    },
+    {
+      "key": "CO-1516",
+      "summary": "Navegación interna rota entre Breadcrumps - Copiloto Hub",
+      "status": "En curso",
+      "issuetype": "Error",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
+      "url": "https://elevaap.atlassian.net/browse/CO-1516"
+    },
     {
       "key": "CO-1297",
       "summary": "[B] Servicio vencimiento automático de contratos Wicar",
@@ -15,20 +85,6 @@
       "story_points": null,
       "description": "Crear servicio para poder dar de bajar todos los datos asociados al contrato del vehículo automáticamente en base a la fecha de expiración.",
       "url": "https://elevaap.atlassian.net/browse/CO-1297"
-    },
-    {
-      "key": "CO-1516",
-      "summary": "Navegación interna rota entre Breadcrumps - Copiloto Hub",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "priority": "Medium",
-      "story_points": null,
-      "description": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1516"
     },
     {
       "key": "CO-1339",
@@ -71,20 +127,6 @@
       "story_points": null,
       "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1376"
-    },
-    {
-      "key": "CO-1552",
-      "summary": "Datos DCT no match con Rastreo 2.0",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1552"
     },
     {
       "key": "CO-1525",
