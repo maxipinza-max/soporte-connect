@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-04-06T12:31:26Z",
-  "total": 57,
+  "last_updated": "2026-04-09T18:34:11Z",
+  "total": 58,
   "stories": [
+    {
+      "key": "CO-1575",
+      "summary": "Certificados GPS Copiloto no actualizan fecha",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Al descargar un certificado de GPS de la plataforma este no actualiza la fecha.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1575"
+    },
+    {
+      "key": "CO-1297",
+      "summary": "[B] Servicio vencimiento automático de contratos Wicar",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": "CO-862",
+      "epic_name": "Wicar: Mejoras administrativas",
+      "assignee": "Dionisio Olivares",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Crear servicio para poder dar de bajar todos los datos asociados al contrato del vehículo automáticamente en base a la fecha de expiración.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1297"
+    },
+    {
+      "key": "CO-1564",
+      "summary": "[F] Nuevo Chatbot en HOME",
+      "status": "Finalizada",
+      "issuetype": "Historia",
+      "lane": "HECHO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Benjamín Alexander Loyola Salazar",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Incluir en el Home la nueva versión del chatbot para dar cumplimiento a la entrega comprometida en abril.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1564"
+    },
     {
       "key": "CO-1567",
       "summary": "Caso Nota CSI Next Steps",
@@ -71,20 +113,6 @@
       "story_points": null,
       "description": "En base a la revisión del refactor asociado al backend, se requiere armar plan de ejecución y para refactor del front",
       "url": "https://elevaap.atlassian.net/browse/CO-1566"
-    },
-    {
-      "key": "CO-1564",
-      "summary": "[F] Nuevo Chatbot en HOME",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Benjamín Alexander Loyola Salazar",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Incluir en el Home la nueva versión del chatbot para dar cumplimiento a la entrega comprometida en abril.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1564"
     },
     {
       "key": "CO-1552",
@@ -183,20 +211,6 @@
       "story_points": null,
       "description": "Al momento de cerrar los tickets el BackOffice arroja error, lo que no permite cerrar nuevas instalaciones, ni renovaciones de contrato.",
       "url": "https://elevaap.atlassian.net/browse/CO-1523"
-    },
-    {
-      "key": "CO-1297",
-      "summary": "[B] Servicio vencimiento automático de contratos Wicar",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": "CO-862",
-      "epic_name": "Wicar: Mejoras administrativas",
-      "assignee": "Dionisio Olivares",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Crear servicio para poder dar de bajar todos los datos asociados al contrato del vehículo automáticamente en base a la fecha de expiración.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1297"
     },
     {
       "key": "CO-1339",
