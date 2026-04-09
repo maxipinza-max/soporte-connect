@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-09T21:55:47Z",
+  "last_updated": "2026-04-09T23:10:08Z",
   "total": 58,
   "stories": [
+    {
+      "key": "CO-1356",
+      "summary": "Integrar Lucia.20 en Home Copiloto",
+      "status": "Validacion",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": "CO-1004",
+      "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Integrar el Chat de Lucia 2.0 en el Home de Copiloto para que el cliente final pueda realizar consultas a través de esta herramienta",
+      "url": "https://elevaap.atlassian.net/browse/CO-1356"
+    },
     {
       "key": "CO-1552",
       "summary": "Datos DCT no match con Rastreo 2.0",
@@ -71,20 +85,6 @@
       "story_points": null,
       "description": "En base a la revisión realizada, se requiere dar seguimiento para poder revisar si las asignaciones de conductor se logran hacer correctamente en el flujo. En base a lo anterior se debe definir la estructura base para la nueva nota.",
       "url": "https://elevaap.atlassian.net/browse/CO-1567"
-    },
-    {
-      "key": "CO-1356",
-      "summary": "Integrar Lucia.20 en Home Copiloto",
-      "status": "En curso",
-      "issuetype": "Historia",
-      "lane": "EN CURSO",
-      "epic_key": "CO-1004",
-      "epic_name": "IA Factory",
-      "assignee": "Mario Calderón",
-      "priority": "High",
-      "story_points": null,
-      "description": "Integrar el Chat de Lucia 2.0 en el Home de Copiloto para que el cliente final pueda realizar consultas a través de esta herramienta",
-      "url": "https://elevaap.atlassian.net/browse/CO-1356"
     },
     {
       "key": "CO-1525",
