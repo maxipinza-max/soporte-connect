@@ -1,16 +1,30 @@
 {
-  "last_updated": "2026-04-09T18:34:11Z",
+  "last_updated": "2026-04-09T21:55:47Z",
   "total": 58,
   "stories": [
     {
-      "key": "CO-1575",
-      "summary": "Certificados GPS Copiloto no actualizan fecha",
-      "status": "En curso",
+      "key": "CO-1552",
+      "summary": "Datos DCT no match con Rastreo 2.0",
+      "status": "Validacion",
       "issuetype": "Historia",
-      "lane": "EN CURSO",
+      "lane": "VALIDACION",
       "epic_key": null,
       "epic_name": null,
-      "assignee": "Mario Calderón",
+      "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1552"
+    },
+    {
+      "key": "CO-1575",
+      "summary": "Certificados GPS Copiloto no actualizan fecha",
+      "status": "Validacion",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Dionisio Olivares",
       "priority": "Medium",
       "story_points": null,
       "description": "Al descargar un certificado de GPS de la plataforma este no actualiza la fecha.",
@@ -113,20 +127,6 @@
       "story_points": null,
       "description": "En base a la revisión del refactor asociado al backend, se requiere armar plan de ejecución y para refactor del front",
       "url": "https://elevaap.atlassian.net/browse/CO-1566"
-    },
-    {
-      "key": "CO-1552",
-      "summary": "Datos DCT no match con Rastreo 2.0",
-      "status": "En curso",
-      "issuetype": "Historia",
-      "lane": "EN CURSO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1552"
     },
     {
       "key": "CO-1553",
