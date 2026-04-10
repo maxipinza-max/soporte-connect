@@ -1,27 +1,13 @@
 {
-  "last_updated": "2026-04-10T15:11:29Z",
+  "last_updated": "2026-04-10T15:23:30Z",
   "total": 58,
   "stories": [
     {
-      "key": "CO-1552",
-      "summary": "Datos DCT no match con Rastreo 2.0",
-      "status": "Validacion",
-      "issuetype": "Historia",
-      "lane": "VALIDACION",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Nicolás García Santelices",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1552"
-    },
-    {
       "key": "CO-1575",
       "summary": "Certificados GPS Copiloto no actualizan fecha",
-      "status": "Validacion",
+      "status": "Finalizada",
       "issuetype": "Historia",
-      "lane": "VALIDACION",
+      "lane": "HECHO",
       "epic_key": null,
       "epic_name": null,
       "assignee": "Dionisio Olivares",
@@ -29,6 +15,20 @@
       "story_points": null,
       "description": "Al descargar un certificado de GPS de la plataforma este no actualiza la fecha.",
       "url": "https://elevaap.atlassian.net/browse/CO-1575"
+    },
+    {
+      "key": "CO-1553",
+      "summary": "Intermitencia descarga reporte usuarios (GYU)",
+      "status": "En curso",
+      "issuetype": "Error",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Equipo, el descargable de usuarios en GYU esta con intermitencias, lo he revisado con Benja Loyola. En resumen, a veces el archivo se descarga con la columna “Empresa” vacía (adjunto archivo), adicional las fechas tienen incongruencias. Ej: Usuario creado el 26-02-2026 // Ultimo acceso 12-01-2026 (Adjunto imagenes)",
+      "url": "https://elevaap.atlassian.net/browse/CO-1553"
     },
     {
       "key": "CO-1297",
@@ -43,6 +43,34 @@
       "story_points": null,
       "description": "Crear servicio para poder dar de bajar todos los datos asociados al contrato del vehículo automáticamente en base a la fecha de expiración.",
       "url": "https://elevaap.atlassian.net/browse/CO-1297"
+    },
+    {
+      "key": "CO-1356",
+      "summary": "Integrar Lucia.20 en Home Copiloto",
+      "status": "Validacion",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": "CO-1004",
+      "epic_name": "IA Factory",
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Integrar el Chat de Lucia 2.0 en el Home de Copiloto para que el cliente final pueda realizar consultas a través de esta herramienta",
+      "url": "https://elevaap.atlassian.net/browse/CO-1356"
+    },
+    {
+      "key": "CO-1552",
+      "summary": "Datos DCT no match con Rastreo 2.0",
+      "status": "Validacion",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Nicolás García Santelices",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1552"
     },
     {
       "key": "CO-1564",
@@ -71,20 +99,6 @@
       "story_points": null,
       "description": "En base a la revisión realizada, se requiere dar seguimiento para poder revisar si las asignaciones de conductor se logran hacer correctamente en el flujo. En base a lo anterior se debe definir la estructura base para la nueva nota.",
       "url": "https://elevaap.atlassian.net/browse/CO-1567"
-    },
-    {
-      "key": "CO-1356",
-      "summary": "Integrar Lucia.20 en Home Copiloto",
-      "status": "En curso",
-      "issuetype": "Historia",
-      "lane": "EN CURSO",
-      "epic_key": "CO-1004",
-      "epic_name": "IA Factory",
-      "assignee": "Mario Calderón",
-      "priority": "High",
-      "story_points": null,
-      "description": "Integrar el Chat de Lucia 2.0 en el Home de Copiloto para que el cliente final pueda realizar consultas a través de esta herramienta",
-      "url": "https://elevaap.atlassian.net/browse/CO-1356"
     },
     {
       "key": "CO-1525",
@@ -127,20 +141,6 @@
       "story_points": null,
       "description": "En base a la revisión del refactor asociado al backend, se requiere armar plan de ejecución y para refactor del front",
       "url": "https://elevaap.atlassian.net/browse/CO-1566"
-    },
-    {
-      "key": "CO-1553",
-      "summary": "Intermitencia descarga reporte usuarios (GYU)",
-      "status": "Tareas por hacer",
-      "issuetype": "Error",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Mario Calderón",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Equipo, el descargable de usuarios en GYU esta con intermitencias, lo he revisado con Benja Loyola. En resumen, a veces el archivo se descarga con la columna “Empresa” vacía (adjunto archivo), adicional las fechas tienen incongruencias. Ej: Usuario creado el 26-02-2026 // Ultimo acceso 12-01-2026 (Adjunto imagenes)",
-      "url": "https://elevaap.atlassian.net/browse/CO-1553"
     },
     {
       "key": "CO-1532",
