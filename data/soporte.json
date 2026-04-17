@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-04-16T21:32:17Z",
-  "total": 58,
+  "last_updated": "2026-04-17T13:04:01Z",
+  "total": 61,
   "stories": [
+    {
+      "key": "CO-1599",
+      "summary": "Mejoras IA Home Copiloto priorizadas por equipo Connect",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": "CO-1004",
+      "epic_name": "IA Factory",
+      "assignee": "Nicolás García Santelices",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Incluir mejoras mencionadas por equipo de Connect\n\n* membresias\n* preguntas abiertas\n* Funcionamiento general de la IA",
+      "url": "https://elevaap.atlassian.net/browse/CO-1599"
+    },
+    {
+      "key": "CO-1601",
+      "summary": "Reprocesamiento Datos clientes",
+      "status": "Validacion",
+      "issuetype": "Tarea",
+      "lane": "VALIDACION",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Por problemas de la ETL, se encolaron datos de los siguientes clientes:  \n9BM951511TB427413 869671070575707\n\n9BM951511TB427526 869671070580467\n\n9BM951511TB415641 863238070325701\n\n9BM951511TB415589 863238070327673\n\n 863238070327178\n\n863238071568275\n\n863238071581179\n\n863238071588901\n\n869671072163213",
+      "url": "https://elevaap.atlassian.net/browse/CO-1601"
+    },
+    {
+      "key": "CO-1600",
+      "summary": "Incluir cambios API estado de conectividad en flujo de correo n8n",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Incluir los cambios realzados en la API, colicitados por Samuel, en el flujo de n8n para que los correos queden con la misma informacion del descargable.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1600"
+    },
     {
       "key": "CO-1567",
       "summary": "Caso Nota CSI Next Steps",
