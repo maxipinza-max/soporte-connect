@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-17T13:04:01Z",
-  "total": 61,
+  "last_updated": "2026-04-17T13:12:44Z",
+  "total": 69,
   "stories": [
     {
       "key": "CO-1599",
@@ -49,7 +49,7 @@
       "summary": "Caso Nota CSI Next Steps",
       "status": "Bloqueo Bloqueo",
       "issuetype": "Tarea",
-      "lane": "BLOQUEADO",
+      "lane": "EN CURSO",
       "epic_key": null,
       "epic_name": null,
       "assignee": "Mario Calderón",
@@ -143,6 +143,48 @@
       "url": "https://elevaap.atlassian.net/browse/CO-1376"
     },
     {
+      "key": "CO-1581",
+      "summary": "Vehiculos no reportando - CRITICO",
+      "status": "Tareas por hacer",
+      "issuetype": "Error",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "El equipo necesita sacar los ultimos 2 meses de estos VINS:  \n\nVIN                               IMEI\n\n9BM951511TB427413 869671070575707  \n 9BM951511TB427526 869671070580467  \n 9BM951511TB415641 863238070325701  \n 9BM951511TB415589 863238070327673\n\n \n\n**863238070327178**\n\n**863238071568275**\n\n**863238071581179**\n\n**863238071588901**\n\n**869671072163213**",
+      "url": "https://elevaap.atlassian.net/browse/CO-1581"
+    },
+    {
+      "key": "CO-1577",
+      "summary": "Cliente reclama porque la APP WICAR le funciona desfazada. PPU HZTJ92",
+      "status": "Tareas por hacer",
+      "issuetype": "Error",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Patente: HZTJ92  \nVIN: WDDBF5CB9GJ454422   \nImei: 863457050154432   \n\nEstimados,\n\nJunto con saludar, quisiera reportar un problema relevante en el funcionamiento del sistema asociado a la aplicación Wicar, específicamente en la funcionalidad de bloqueo y desbloqueo de motor.\n\nHe detectado inconsistencias importantes en el comportamiento de la aplicación, las cuales detallo a continuación:\n\nAl ejecutar la acción de bloqueo de motor desde la app, el sistema muestra mensajes contradictorios (por ejemplo, indica que se está “desbloqueando”).\n\nEl estado informado por la aplicación no coincide con la acción ejecutada ni con la condición real del vehículo.\n\nEn múltiples ocasiones, los comandos enviados desde la app no se ejecutan de forma consistente.\n\nAdicionalmente, he verificado que:\n\nLa central de asistencia sí puede ejecutar correctamente los comandos de bloqueo y desbloqueo de forma remota, lo que indica que el dispositivo instalado y el sistema de corte de motor se encuentran operativos.\n\nPor lo anterior, el problema parece estar asociado a una falta de sincronización o falla en la comunicación entre la aplicación (frontend) y el servidor (backend).\n\nDado que esta funcionalidad corresponde a un sistema de seguridad, esta situación resulta preocupante, ya que actualmente no es posible confiar en el estado ni en la ejecución de los comandos desde la aplicación.\n\nSolicito por favor:\n\nRevisión técnica completa del sistema asociado a mi cuenta/dispositivo.\n\nVerificación de los logs de comandos enviados desde la app (timestamp, tipo de comando y estado de ejecución).\n\nConfirmación de recepción y ejecución de comandos por parte del dispositivo.\n\nSolución definitiva al problema o indicación de las acciones correctivas necesarias.\n\nQuedo atento a su pronta respuesta, considerando la criticidad de este sistema.\n\nSaludos cordiales,  \nGiovanni Gattoni\n\n‌",
+      "url": "https://elevaap.atlassian.net/browse/CO-1577"
+    },
+    {
+      "key": "CO-1546",
+      "summary": "ENVIO MAIL CADA 2 SEMANAS A CLIENTES RESUMEN FLOTA COPILOTO TELEMETRÍA",
+      "status": "Tareas por hacer",
+      "issuetype": "Error",
+      "lane": "POR HACER",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Implementar el envío quincenal del reporte en PDF (TelemetrIA) a clientes. Resumen de telemetría de su flota e incorporación de un plan de mejora con recomendaciones concretas. El objetivo es facilitar la toma de decisiones y generar valor continuo a partir de los datos.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1546"
+    },
+    {
       "key": "CO-1575",
       "summary": "Certificados GPS Copiloto no actualizan fecha",
       "status": "Finalizada",
@@ -183,6 +225,20 @@
       "story_points": null,
       "description": "Incluir en el Home la nueva versión del chatbot para dar cumplimiento a la entrega comprometida en abril.",
       "url": "https://elevaap.atlassian.net/browse/CO-1564"
+    },
+    {
+      "key": "CO-863",
+      "summary": "Eliminación de vehículos en base de datos.",
+      "status": "En curso",
+      "issuetype": "Tarea",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Nabor Zhender",
+      "priority": "Low",
+      "story_points": null,
+      "description": "Estos vehículo se debe eliminar directamente en la base de datos debido a que arrojan error en grupos y usuarios, esto porque las unidades no existen en DCT  \nW1K3G4GB7PJ384957  \nW1K3G8HB5PJ423714  \nW1N4N8HB0PJ509333  \nW1NFB1KB6NA747475  \nW1N4N8HB7RJ544535",
+      "url": "https://elevaap.atlassian.net/browse/CO-863"
     },
     {
       "key": "CO-1525",
@@ -281,6 +337,20 @@
       "story_points": null,
       "description": "Cambiar logotipo de KORA por el de Connect",
       "url": "https://elevaap.atlassian.net/browse/CO-1339"
+    },
+    {
+      "key": "CO-1147",
+      "summary": "Problemas al descargar certificado de instalación de la unidad VLZR-29",
+      "status": "En curso",
+      "issuetype": "Tarea",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Mario Calderón",
+      "priority": "High",
+      "story_points": null,
+      "description": "Hola equipo, al momento de descargar el certificado de instalación de la unidad VLZR29. este no se descarga la unidad pertenece a la empresa PROCLEANMG SPA, problema se repite con varias unidades de la empresa.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1147"
     },
     {
       "key": "CO-1349",
@@ -855,6 +925,48 @@
       "story_points": null,
       "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1285"
+    },
+    {
+      "key": "CO-1175",
+      "summary": "Eliminar flota RBU",
+      "status": "Finalizada",
+      "issuetype": "Error",
+      "lane": "HECHO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Hola equipo, favor su ayuda eliminando 100 usuarios, 18 grupos y mas de 500 vehículos de RBU.\n\nGracias!!",
+      "url": "https://elevaap.atlassian.net/browse/CO-1175"
+    },
+    {
+      "key": "CO-1150",
+      "summary": "Vehículo dado de baja desde GEOTAB",
+      "status": "Finalizada",
+      "issuetype": "Tarea",
+      "lane": "HECHO",
+      "epic_key": "ELV-1921",
+      "epic_name": "Soporte: Incrementales",
+      "assignee": "Sebastián Sánchez",
+      "priority": "Highest",
+      "story_points": null,
+      "description": "Team, consulta hay una unidad que fue dada de baja en Geotab, pero en GYU aún aparece la caluga de integración activa. Esta inconsistencia impide realizar modificaciones sobre la unidad, ya que el sistema la sigue interpretando como integrada.  \n  \nVIN: 3N6BD31B6KK812393  \n  \n\n![](blob:https://media.staging.atl-paas.net/?type=file&localId=null&id=c54c775a-f876-4cb9-a5d6-a9ebb29b1487&&collection=&height=298&occurrenceKey=null&width=1105&__contextId=null&__displayType=null&__external=false&__fileMimeType=null&__fileName=null&__fileSize=null&__mediaTraceId=null&url=null)",
+      "url": "https://elevaap.atlassian.net/browse/CO-1150"
+    },
+    {
+      "key": "CO-891",
+      "summary": "EMIN // Credenciales base de Datos",
+      "status": "Finalizada",
+      "issuetype": "Tarea",
+      "lane": "HECHO",
+      "epic_key": "CO-111",
+      "epic_name": "Soporte Operaciones Q3",
+      "assignee": "Nicolás García Santelices",
+      "priority": "High",
+      "story_points": null,
+      "description": "Equipo de ENIM solicita poder cnectarse a la informacion de telemetria, que alimenta los paneles y a las alertas de falla  \nSon los mismos accesos a RAWData?  \nDonde pueden ubicar esta informacion?",
+      "url": "https://elevaap.atlassian.net/browse/CO-891"
     }
   ]
 }
