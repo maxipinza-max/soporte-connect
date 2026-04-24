@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-23T03:55:00Z",
+  "last_updated": "2026-04-24T15:58:37Z",
   "total": 64,
   "stories": [
+    {
+      "key": "CO-1600",
+      "summary": "Incluir cambios API estado de conectividad en flujo de correo n8n",
+      "status": "Control de calidad",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Incluir los cambios realzados en la API, colicitados por Samuel, en el flujo de n8n para que los correos queden con la misma informacion del descargable.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1600"
+    },
     {
       "key": "CO-1616",
       "summary": "Correo de unidades reportando no esta llegando.",
@@ -43,20 +57,6 @@
       "story_points": null,
       "description": null,
       "url": "https://elevaap.atlassian.net/browse/CO-1602"
-    },
-    {
-      "key": "CO-1600",
-      "summary": "Incluir cambios API estado de conectividad en flujo de correo n8n",
-      "status": "En curso",
-      "issuetype": "Historia",
-      "lane": "EN CURSO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Francisco Donaire",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Incluir los cambios realzados en la API, colicitados por Samuel, en el flujo de n8n para que los correos queden con la misma informacion del descargable.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1600"
     },
     {
       "key": "CO-1599",
