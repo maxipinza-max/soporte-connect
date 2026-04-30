@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-04-24T15:58:37Z",
+  "last_updated": "2026-04-30T02:21:52Z",
   "total": 64,
   "stories": [
+    {
+      "key": "CO-1602",
+      "summary": "Reporte vehículos sin reportar CONNECT",
+      "status": "En curso",
+      "issuetype": "Historia",
+      "lane": "EN CURSO",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": null,
+      "url": "https://elevaap.atlassian.net/browse/CO-1602"
+    },
+    {
+      "key": "CO-1532",
+      "summary": "Upadate telemetry API - nuevo origen",
+      "status": "Control de calidad",
+      "issuetype": "Historia",
+      "lane": "VALIDACION",
+      "epic_key": null,
+      "epic_name": null,
+      "assignee": "Francisco Donaire",
+      "priority": "Medium",
+      "story_points": null,
+      "description": "Se requiere hacer un update en el código de la API de telemetría para que pueda consultar el nuevo origen en Big Query, para posteriormente contrastar los datos de dev vs prod.",
+      "url": "https://elevaap.atlassian.net/browse/CO-1532"
+    },
     {
       "key": "CO-1600",
       "summary": "Incluir cambios API estado de conectividad en flujo de correo n8n",
@@ -43,20 +71,6 @@
       "story_points": null,
       "description": "Ciertos vehiculos DIMO no estan apareciendo en las geocercas que usa el equipo de repuestos en terreno",
       "url": "https://elevaap.atlassian.net/browse/CO-1604"
-    },
-    {
-      "key": "CO-1602",
-      "summary": "Reporte vehículos sin reportar CONNECT",
-      "status": "Tareas por hacer",
-      "issuetype": "Historia",
-      "lane": "POR HACER",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Francisco Donaire",
-      "priority": "Medium",
-      "story_points": null,
-      "description": null,
-      "url": "https://elevaap.atlassian.net/browse/CO-1602"
     },
     {
       "key": "CO-1599",
@@ -113,20 +127,6 @@
       "story_points": null,
       "description": "Los datos de Rastreo 2.0 quedan encolados a una hora especifica del dia, provocando que tengan un desfase con lo que muestra DCT. al mismo tiempo DCT muestra toda la trama, mientras que Copiloto muestra las tramas limpias. El equipo comercial necesita que ambas plataformas muestren lo mismo.",
       "url": "https://elevaap.atlassian.net/browse/CO-1552"
-    },
-    {
-      "key": "CO-1532",
-      "summary": "Upadate telemetry API - nuevo origen",
-      "status": "En curso",
-      "issuetype": "Historia",
-      "lane": "EN CURSO",
-      "epic_key": null,
-      "epic_name": null,
-      "assignee": "Francisco Donaire",
-      "priority": "Medium",
-      "story_points": null,
-      "description": "Se requiere hacer un update en el código de la API de telemetría para que pueda consultar el nuevo origen en Big Query, para posteriormente contrastar los datos de dev vs prod.",
-      "url": "https://elevaap.atlassian.net/browse/CO-1532"
     },
     {
       "key": "CO-1297",
